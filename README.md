@@ -1,26 +1,29 @@
 Role Name
 =========
 
-cfme-hardening is a role meant to offer an alternative to appliance_console. the rest of the README is currently a WIP
+cfme-hardening is a role meant to offer an alternative to appliance_console. It is an adaptation of the scap_rules.yml that is used with the linuxadmin gem by appliance_console and is heavily based on remediation snippets from https://static.open-scap.org/ (I try to put sources in each task file)
 
 Requirements
 ------------
 
-Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
+This is meant to be used on a CloudForms 5.11 as is to replicate openscap hardening.
 
 Role Variables
 --------------
 
+WIP
 A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
 
 Dependencies
 ------------
 
+WIP
 A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
 
 Example Playbook
 ----------------
 
+WIP
 Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
 
     - hosts: servers
@@ -30,9 +33,9 @@ Including an example of how to use your role (for instance, with variables passe
 License
 -------
 
-BSD
+GPL V2
 
 Author Information
 ------------------
 
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+For issues go to https://github.com/FDewaleyne/cfme-hardening/issues 
