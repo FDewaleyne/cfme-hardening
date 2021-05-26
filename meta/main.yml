@@ -38,6 +38,11 @@ galaxy_info:
   #   - 1.0
   #   - 7
   #   - 99.99
+  platforms:
+  - name: EL
+    versions:
+    - 8
+    - 7
 
   galaxy_tags:
   - cloudforms
