@@ -70,6 +70,30 @@ The following scap rules are enforced :
   - xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_icmp_ignore_bogus_error_responses
   - xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_default_accept_redirects
 
+Values applied
+--------------
+  xccdf_org.ssgproject.content_value_sshd_idle_timeout_value: 15_minutes
+  xccdf_org.ssgproject.content_value_sysctl_net_ipv4_conf_all_accept_redirects_value: disabled
+  xccdf_org.ssgproject.content_value_sysctl_net_ipv4_conf_all_accept_source_route_value: disabled
+  xccdf_org.ssgproject.content_value_sysctl_net_ipv4_conf_all_log_martians_value: enabled
+  xccdf_org.ssgproject.content_value_sysctl_net_ipv4_conf_all_rp_filter_value: enabled
+  xccdf_org.ssgproject.content_value_sysctl_net_ipv4_conf_all_secure_redirects_value: disabled
+  xccdf_org.ssgproject.content_value_sysctl_net_ipv4_conf_default_accept_redirects_value: disabled
+  xccdf_org.ssgproject.content_value_sysctl_net_ipv4_conf_default_secure_redirects_value: disabled
+  xccdf_org.ssgproject.content_value_sysctl_net_ipv4_icmp_echo_ignore_broadcasts_value: enabled
+  xccdf_org.ssgproject.content_value_sysctl_net_ipv4_icmp_ignore_bogus_error_responses_value: enabled
+  xccdf_org.ssgproject.content_value_sysctl_net_ipv6_conf_default_accept_redirects: disabled
+  xccdf_org.ssgproject.content_value_var_account_disable_post_pw_expiration: 35
+  xccdf_org.ssgproject.content_value_var_accounts_max_concurrent_login_sessions: 10
+  xccdf_org.ssgproject.content_value_var_accounts_maximum_age_login_defs: 60
+  xccdf_org.ssgproject.content_value_var_accounts_minimum_age_login_defs: 1
+  xccdf_org.ssgproject.content_value_var_accounts_password_minlen_login_defs: 14
+  xccdf_org.ssgproject.content_value_var_password_pam_dcredit: 1
+  xccdf_org.ssgproject.content_value_var_password_pam_difok: 4
+  xccdf_org.ssgproject.content_value_var_password_pam_ucredit: 1
+  xccdf_org.ssgproject.content_value_var_password_pam_ocredit: 1
+  xccdf_org.ssgproject.content_value_var_password_pam_lcredit: 1
+
 Example Playbook
 ----------------
 
