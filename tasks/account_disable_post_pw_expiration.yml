@@ -1,7 +1,7 @@
 ---
 # set account expiration following inactivity
 # xccdf_org.ssgproject.content_rule_account_disable_post_pw_expiration
-# based on ansibel snippet  for xccdf_org.ssgproject.content_rule_account_disable_post_pw_expiration
+# source https://static.open-scap.org/ssg-guides/ssg-rhel7-guide-pci-dss.html#xccdf_org.ssgproject.content_rule_account_disable_post_pw_expiration 
 - name: Gather the package facts
   package_facts:
     manager: auto
