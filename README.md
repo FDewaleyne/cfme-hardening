@@ -6,7 +6,7 @@ cfme-hardening is a role meant to offer an alternative to appliance_console. It 
 Requirements
 ------------
 
-This is meant to be used on a CloudForms 5.11 as is to replicate openscap hardening.
+This is meant to be used on a CloudForms 5.0.11 (cfme-5.11.11) to replicate openscap hardening as done through appliance_config.
 
 Role Variables
 --------------
