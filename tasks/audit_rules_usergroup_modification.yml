@@ -1,0 +1,26 @@
+---
+# rule xccdf_org.ssgproject.content_rule_audit_rules_usergroup_modification
+# Record Events that Modify User/Group Information
+# If the auditd daemon is configured to use the augenrules program to read audit rules during daemon startup (the default), add the following lines to a file with suffix .rules in the directory /etc/audit/rules.d, in order to capture events that modify account changes:
+# 
+# -w /etc/group -p wa -k audit_rules_usergroup_modification
+# -w /etc/passwd -p wa -k audit_rules_usergroup_modification
+# -w /etc/gshadow -p wa -k audit_rules_usergroup_modification
+# -w /etc/shadow -p wa -k audit_rules_usergroup_modification
+# -w /etc/security/opasswd -p wa -k audit_rules_usergroup_modification
+# 
+# 
+# If the auditd daemon is configured to use the auditctl utility to read audit rules during daemon startup, add the following lines to /etc/audit/audit.rules file, in order to capture events that modify account changes:
+# 
+# -w /etc/group -p wa -k audit_rules_usergroup_modification
+# -w /etc/passwd -p wa -k audit_rules_usergroup_modification
+# -w /etc/gshadow -p wa -k audit_rules_usergroup_modification
+# -w /etc/shadow -p wa -k audit_rules_usergroup_modification
+# -w /etc/security/opasswd -p wa -k audit_rules_usergroup_modification
+#
+# WARNING
+# This rule checks for multiple syscalls related to account changes; it was written with DISA STIG in mind. Other policies should use a separate rule for each syscall that needs to be checked
+#
+# source https://static.open-scap.org/ssg-guides/ssg-rhel7-guide-standard.html#xccdf_org.ssgproject.content_rule_audit_rules_usergroup_modification
+
+#WIP : run remedial script
