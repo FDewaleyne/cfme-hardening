@@ -1,1 +1,2 @@
-- find remediation for rule xccdf_org.ssgproject.content_rule_bootloader_audit_argument
+- adapt running the playbook 
+- think about how to run remediation for only steps that require it and possible restructuration needed
