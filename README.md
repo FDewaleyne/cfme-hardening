@@ -114,7 +114,7 @@ The following scap rules and values are enforced :
   * Cron and At Daemons
     * xccdf_org.ssgproject.content_rule_service_atd_disabled
   * SSH Server
-  * xccdf_org.ssgproject.content_value_sshd_idle_timeout_value: 900
+    * xccdf_org.ssgproject.content_value_sshd_idle_timeout_value: 900
     * Configure OpenSSH Server if Necessary
       * xccdf_org.ssgproject.content_rule_sshd_set_keepalive
       * xccdf_org.ssgproject.content_rule_sshd_do_not_permit_user_env
