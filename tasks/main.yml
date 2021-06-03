@@ -1,2 +1,7 @@
 ---
 # tasks file for cfme-hardening
+# possible command, no remediation
+# oscap-ssh root@cfme511.example.com 22 xccdf eval --fetch-remote-resources --datastream-id scap_org.open-scap_datastream_from_xccdf_ssg-rhel8-xccdf-1.2.xml --xccdf-id scap_org.open-scap_cref_ssg-rhel8-xccdf-1.2.xml --tailoring-file /home/fdewaley/build/cfme-hardening/files/ssg-rhel8-ds-tailoring-cfme-5.11.11.xml --profile xccdf_org.redhat_profile_cloudforms --oval-results --results /tmp/xccdf-results.xml --results-arf /tmp/arf.xml --report /tmp/report.html /tmp/scap-workbench-BQzjSs/ssg-rhel8-ds.xml
+#
+# possible command, remediation
+# oscap-ssh root@cfme511.example.com 22 xccdf eval --fetch-remote-resources --datastream-id scap_org.open-scap_datastream_from_xccdf_ssg-rhel8-xccdf-1.2.xml --xccdf-id scap_org.open-scap_cref_ssg-rhel8-xccdf-1.2.xml --tailoring-file /home/fdewaley/build/cfme-hardening/files/ssg-rhel8-ds-tailoring-cfme-5.11.11.xml --profile xccdf_org.redhat_profile_cloudforms --oval-results --results /tmp/xccdf-results.xml --results-arf /tmp/arf.xml --report /tmp/report.html --remediate /tmp/scap-workbench-BQzjSs/ssg-rhel8-ds.xml
